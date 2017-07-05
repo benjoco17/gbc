@@ -1,0 +1,39 @@
+/* Gravity Forms eWAY Pro admin styling */
+
+select[name="_gaddon_setting_currency"] {
+	font-family: Consolas, Monaco, monospace;
+}
+
+#gaddon-setting-row-delayNotifications .gfeway-notification-checkbox {
+	margin-left: 2em;
+}
+
+#gaddon-setting-checkbox-choice-remembercustomer_no_tx {
+	padding-top: 0.6em;
+}
+
+.column-feedItem_useTest {
+	width: 6em;
+}
+
+.column-feedItem_feedMethod {
+	width: 15em;
+}
+
+/* Customer Tokens field */
+
+.wp-admin .ginput_container_gfewaypro_cust_tokens .ginput_right {
+	min-width: inherit;
+}
+
+.wp-admin .ginput_container_gfewaypro_cust_tokens input[type="radio"] {
+	width: 1em !important;
+}
+
+.wp-admin .ginput_container_gfewaypro_cust_tokens .gfewaypro_cust_tokens_remember {
+	display: none;
+}
+
+.wp-admin .gfewaypro_cust_tokens_security_code input {
+	width: 8em !important;
+}

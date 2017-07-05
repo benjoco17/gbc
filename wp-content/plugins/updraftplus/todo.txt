@@ -1,0 +1,211 @@
+TODO - some of these are out of date/done, needs pruning
+
+// https://wordpress.org/support/topic/backup-to-google-drive-failing-despite-valid-oauth?replies=2
+
+// Auto-reset of licences of people with far-out renewals (i.e. multi-year deals)
+
+// Allow people with far-out renewal (i.e. multi-year renewals) to reset their licences?
+
+// encrypt() in moredatabase.php requires 2x file size for encryption. Can it be done in blocks?
+
+// HS#3850 - in the postmeta table, base64-decode items with the key mfn-page-items, and then search/replace, and then re-encode. Yuk.
+
+// See HS#3274 - when WooCommerce complains about the postcode, display a message to check the country
+
+// Expiries on a fresh order don't line up. Migrator=1 day behind Prem using current time; support at start of day. Need to audit/auto-fix
+
+From DN...
+
+Top Support Questions-
+
+·         Migrating Direct Site-to-Site fails – Add pull-from-site mode?
+
+·         Renewal didn’t work
+
+·         Restoration times out/has incorrect permissions
+
+·         How do licenses work?
+
+
+Things to do:
+
+·         Licences: add 12-month blurb to each individual page
+
+·         Licences: Add message when adding single add-on to cart about number of licences
+
+// Add "Extend using new licence" link in license manager for people who accidentally purchase new instead of renewing
+
+// Scheduled restores - e.g. HS#2544
+
+// https://wordpress.org/plugins/woocommerce-my-downloads-shortcode/ - modify to add a new "if-no-downloads" short-code; actually, v 1.2 says it already has that feature. Then deploy on our "thank you" page, so that people get sent to the right place.
+
+// "Send to destination" button for existing local backups
+
+// Test restoring a sub-directory-based multisite from root into a multisite in a sub-dir
+
+// https://core.trac.wordpress.org/ticket/30441#comment:10 - pre-upgrade hook - use it
+
+// OneDrive for business
+
+// HS#2134 - make the WebDAV all-in-one not use file_get_contents(), but read/write in pieces from the file
+
+// Delete long-expired licences - to avoid probs like in HS#1874
+
+// HS#1901 - detect this pattern of S3 crashes, and spontaneously switch to OLDLIB
+
+// If user renewed, then their order email should not suggest installing UD. Look for woocommerce_email_before_order_table: in error_log to see why the attempt to modify the customer email is apparently not taking effect
+
+// Did we implement this? http://www.frostjedi.com/phpbb3/viewtopic.php?f=46&t=168508
+
+// Some orders - e.g. 115281 - are still resulting in double-recording of renewal - for Migrator on this order + free + 1 year expiry as a result. Didn't we write a script to find + fix these? And, what's the cause?
+
+// HS#1519 - user tries to send/receive to/from same URL, differing only by www.. Detect/prevent.
+
+// Send people using support for the first time a "how to get the best support!" message
+
+// https://github.com/ThemeAvenue/Plugin-Reviews/wiki/Shortcode-Attributes
+
+// Different retain settings for each remote storage backend. Would first need a change to the remote storage interface - move to tabs. e.g. #HS808
+
+// Support wild-cards in "More Files" fields
+
+// Renewal code should *renew those licences that are in use first* (i.e. sort the array, and leave it in its current order, except for moving the unused ones to the back)
+
+// Remove entries from last-access array where no such site ID exists any more. Any then remove the code in the developer-licence-reset script that removes this entry, as that is wrong (there may be other addons activated on the same site)
+
+// Whitelabel kit? Vault whitelabelling?
+
+// remove-old-developer-activations.php - should also do a one-time remove of those that have no lastcheckin record (=last checked in before we even started that system)
+
+// Does label import upon restoring? See: https://updraftplus.com/forums/topic/feature-request-backup-labels/#post-118339
+
+// Auto-purge all users with no purchases. Must have role = customer, no orders, registered a while ago, not logged in ever ('last_login' user meta began on 7th May 2015, so nobody has one who didn't log in since then).
+
+// If Premium is directly installed, you still get to see a 'get it now' link on the 'Addons' tab
+
+// Option to exclude specified tables on restore
+// Pruning should keep "Backup Now" backups, or wording should be changed ("keep this many scheduled backups"), or some other solution
+// When someone with an unlimited expiry entitlement renews (for support), the support expiry isn't being updated - and show the message still shows.
+// Auto-email people when they're approaching their licence limit
+// Look at past purchase coupons 1.1 - how it differs from current
+// "If username = ..." feature in plugin update server does not appear to work
+// http://updraftplus.com/forums/topic/migrator-add-on-purchase/#post-69954 - detect this "no payment" condition when they connect, and advise them tthere (detect 'pending' orders) - this should probably go in the WC connector.
+// Auto-email people who fail to pay with Stripe
+// Allow developer licensees to delete licences
+// See Helpscout #76 - remove non-main-site WP scheduler entries
+// Child themes with case differences - see how to make these work, if possible - search for 'Dahlke' in email
+// Delete the log file from when both files+db run together
+// Upload log file to remote storage; and download too, and extract any interesting stuff (e.g. backup note)
+// Detect the apparent case where popen() always crashes (" PHP event: code E_WARNING: popen() has been disabled for security reasons (line 782, wp-content/plugins/updraftplus/class-updraftplus.php)") - despite the warning, on some systems that appears to end execution
+// Finish Incremental add-on
+// Add warning to backup run at beginning if -old dirs exist
+// Support form should warn about free version numbers
+// Maintain a manifest of the backup labels at the remote storage? Or send log to remote storage and scrape it from that when wanted?
+// More files: containing zip: https://updraftplus.com/forums/topic/more-files-addon-folder-structure/#post-53959
+// Need to support socket paths for mysqldump, like https://wordpress.org/support/topic/mysqldump-custom-socket-path?replies=3
+// https://wordpress.org/plugins/slack/
+// Make updates policy more obvious on individual add-ons pages?
+// Save memory_limit in backup, and warn on the restoring side if it appears to be lower. Or perhaps only if there's an explicit define()
+// Storage via updraftplus.com
+// Expert search/replace tool should use AJAX, table-by-table
+// add links to licensing page on how to get more licenses/discounted upgrades
+// Use FUE to email users who have pending payments + test experience of wrong CC details
+// At checkout, remind customers who probably should have used a renewal coupon code. Or allow them to re-allocate the licence.
+// Create a FAQ about moving hosting
+// Display "Migrate" instead of "Restore" for non-native backups
+// Add something to monitor deleted cron events + resume
+// WebDAV - SabreDAV (used in ownCloud) supports patch ranges, but not put ranges
+// All-in-one for all zip methods
+// New "requested features" forum
+// Put something in renewal email about how to upgrade at the same time
+// Make restore to pre-unzip, on a separate page load; perhaps with AJAX - reduce timeout risks
+// Deploy FUE addon more extensively
+// Check what happens on renewals-of-renewals - are they detected?
+// More complex pruning options - search archive for retain/billion/complex for ideas
+// Feature to despatch any not-yet-despatched backups to remote storage
+// Make 'more files' restorable - require them to select a directory first
+// On plugins restore, don't let UD over-write itself - because this usually means a down-grade. Since upgrades are db-compatible, there's no reason to downgrade.
+// Schedule a task to report on failure
+// If ionice is available, then use it to limit I/O usage
+// Get user to confirm if they check both the search/replace and wp-config boxes
+// Tweak the display so that users seeing resumption messages don't think it's stuck
+// On restore, check for some 'standard' PHP modules (prevents support requests related to them) -e.g. GD, Curl
+// Recognise known huge non-core tables on restore, and postpone them to the end (AJAX method?)
+// Add a cart notice if people have DBSF=quantity1
+// Integrate jstree for a nice files-chooser; use https://wordpress.org/plugins/dropbox-photo-sideloader/ to see how it's done
+// Pre-schedule resumptions that we know will be scheduled later
+// Change add-ons screen, to be less confusing for people who haven't yet updated but have connected
+// Change migrate window: 1) Retain link to article 2) Have selector to choose which backup set to migrate - or a fresh one 3) Have option for FTP/SFTP/SCP despatch 4) Have big "Go" button. Have some indication of what happens next. Test the login first. Have the remote site auto-scan its directory + pick up new sets. Have a way of querying the remote site for its UD-dir. Have a way of saving the settings as a 'profile'. Or just save the last set of settings (since mostly will be just one place to send to). Implement an HTTP/JSON method for sending files too.
+// Post restore, do an AJAX get for the site; if this results in a 500, then auto-turn-on WP_DEBUG
+// Add some kind of automated scan for post content (e.g. images) that has the same URL base, but is not part of WP. There's an example of such a site in tmp-rich.
+// Complete the tweak to bring the delete-old-dirs within a dialog (just needed to deal wtih case of needing credentials more elegantly).
+// More locking: lock the resumptions too (will need to manage keys to make sure junk data is not left behind)
+// Deal with missing plugins/themes/uploads directory when installing
+// Pre-schedule future resumptions that we know will be scheduled; helps deal with WP's dodgy scheduler skipping some. (Then need to un-schedule if job finishes).
+// Dates in the progress box are apparently untranslated
+// Add-on descriptions are not internationalised
+// If 'reporting' add-on available, then show the HTML report from that
+// Take a look at logfile-to-examine.txt (stored), and the pattern of detection of zipfile contents
+// Test restores via cloud service for small $??? (Relevant: http://browshot.com/features) (per-day? per-install?). Pre-requires restorations from the command-line that also include status.
+// Warn/prevent if trying to migrate between sub-domain/sub-folder based multisites
+// Pre-check the search/replace box if migration detected
+// If migrated database from somewhere else, then add note about revising UD settings
+// Strategy for what to do if the updraft_dir contains untracked backups. Automatically rescan?
+// MySQL manual: See Section 8.2.2.1, Speed of INSERT Statements.
+// Post restore/migrate, check updraft_dir, and reset if non-existent
+// Auto-empty caches post-restore/post-migration (prevent support requests from people with state/wrong cacheing data)
+// Automatically re-count folder usage after doing a delete
+// Switch zip engines earlier if no progress - see log.cfd793337563_hostingfails.txt
+// Put in a help link to explain what WordPress core (including any additions to your WordPress root directory) does (was asked for support)
+// On migrations/restores, have an option for auto-emailing the log
+# Email backup method should be able to force split limit down to something manageable - or at least, should make the option display. (Put it in email class. Tweak the storage dropdown to not hide stuff also in expert class if expert is shown).
+// Multi-site manager at updraftplus.com
+// Unpack zips via AJAX? Do bit-by-bit to allow enormous opens a better chance? (have a huge one in Dropbox)
+// Put in a maintenance-mode detector
+// Add update warning if they've got an add-on but not connected account
+// Bring multisite shop page up to date
+// Re-do pricing + support packages
+// Give a help page to go with the message: A zip error occurred - check your log for more details (reduce support requests)
+// Exclude .git and .svn by default from wpcore
+// Add option to add, not just replace entities on restore/migrate
+// Auto-alert if disk usage passes user-defined threshold / or an automatically computed one. Auto-alert if more backups are known than should be (usually a sign of incompleteness). Actually should just delete unknown backups over a certain age.
+// Importer - import backup sets from another WP site directly via HTTP
+// Option to create new user for self post-restore
+// Auto-disable certain cacheing/minifying plugins post-restore
+// Add note post-DB backup: you will need to log in using details from newly-imported DB
+// Make search+replace two-pass to deal with moving between exotic non-default moved-directory setups
+// Get link - http://www.rackspace.com/knowledge_center/article/how-to-use-updraftplus-to-back-up-cloud-sites-to-cloud-files
+// 'Delete from your webserver' should trigger a rescan if the backup was local-only
+// Option for additive restores - i.e. add content (themes, plugins,...) instead of replacing
+// Testing framework - automated testing of all file upload / download / deletion methods
+// Ginormous tables - need to make sure we "touch" the being-written-out-file (and double-check that we check for that) every 15 seconds - https://friendpaste.com/697eKEcWib01o6zT1foFIn
+// Selective restores - some resources
+// When you migrate/restore, if there is a .htaccess, warn/give option about it.
+// delete_old_dirs() needs to use WP_Filesystem in a more user-friendly way when errors occur
+// Bulk download of entire set at once (not have to click 7 times).
+// Restoration should also clear all common cache locations (or just not back them up)
+// Deal with gigantic database tables - e.g. those over a million rows on cheap hosting.
+// Produce a command-line version of the restorer (so that people with shell access are immune from server-enforced timeouts)
+// Migrator - list+download from remote, kick-off backup remotely
+// Search for other TODO-s in the code
+// Stand-alone installer - take a look at this: http://wordpress.org/extend/plugins/duplicator/screenshots/
+// Unlimited customers should be auto-emailed each time they add a site (security)
+// Save database encryption key inside backup history on per-db basis, so that if it changes we can still decrypt
+// AJAX-ify restoration
+// Store meta-data on which version of UD the backup was made with (will help if we ever introduce quirks that need ironing)
+// Send the user an email upon their first backup with tips on what to do (e.g. support/improve) (include legacy check to not bug existing users)
+// Rackspace folders
+//Do an automated test periodically for the success of loop-back connections
+//When a manual backup is run, use a timer to update the 'Download backups and logs' section, just like 'Last finished backup run'. Beware of over-writing anything that's in there from a resumable downloader.
+//Add YouSendIt/Hightail, Box.Net, SugarSync, Me.Ga support??
+//Make it easier to find add-ons
+// On restore, move in data, not the whole directory (gives more flexibility on file permissions)
+// Move the inclusion, cloud and retention data into the backup job (i.e. don't read current config, make it an attribute of each job). In fact, everything should be. So audit all code for where get_option is called inside a backup run: it shouldn't happen.
+// Should we resume if the only errors were upon deletion (i.e. the backup itself was fine?) Presently we do, but it displays errors for the user to confuse them. Perhaps better to make pruning a separate scheuled task??
+// Create a "Want Support?" button/console, that leads them through what is needed, and performs some basic tests...
+// Add-on to check integrity of backups
+// Add-on to manage all your backups from a single dashboard
+// Provide backup/restoration for UpdraftPlus's settings, to allow 'bootstrap' on a fresh WP install - some kind of single-use code which a remote UpdraftPlus can use to authenticate
+// New sub-module to verify that the backups are there, independently of backup thread
+
+// Affiliates program

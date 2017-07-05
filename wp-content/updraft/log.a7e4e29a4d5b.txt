@@ -1,0 +1,416 @@
+0000.141 (0) Opened log file at time: Thu, 29 Jun 2017 08:08:02 +0000 on https://localhost/thegivebackcampaign_wp
+0000.143 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.18.1 WP: 4.7.5 PHP: 5.6.28 (Windows NT BENJO-PC 6.1 build 7600 (Windows 7 Home Premium Edition) i586) MySQL: 5.5.5 WPLANG: en_US Server: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 safe_mode: 0 max_execution_time: 900 memory_limit: 268435456 (used: 38.8M | 39.8M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.145 (0) Free space on disk containing Updraft's temporary directory: 139072.7 MB
+0000.219 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.220 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.239 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1498354570, seconds_ago=369112)
+0000.243 (0) Set semaphore last lock (fd) time to 2017-06-29 08:08:02
+0000.244 (0) Semaphore lock (fd) complete
+0000.249 (0) Backup run: resumption=0, nonce=a7e4e29a4d5b, begun at=1498723681 (1s ago), job type=backup
+0000.253 (0) Scheduling a resumption (1) after 300 seconds (1498723982) in case this run gets aborted
+0000.274 (0) Checking if we have a zip executable available
+0000.276 (0) Creation of backups of directories: beginning
+0000.283 (0) No backup of plugins: excluded by user's options
+0000.284 (0) No backup of themes: excluded by user's options
+0000.285 (0) No backup of uploads: excluded by user's options
+0000.286 (0) No backup of others: excluded by user's options
+0000.290 (0) Saving backup status to database (elements: 0)
+0000.292 (0) Beginning creation of database dump (WordPress DB)
+0000.706 (0) Table wp_options: Total expected rows (approximate): 666
+0000.748 (0) Table wp_options: Total rows added: 661 in 0.04 seconds
+0000.751 (0) Table wp_options: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_options.table.gz - 69.6 KB)
+0000.759 (0) Table wp_users: Total expected rows (approximate): 2
+0000.777 (0) Table wp_users: Total rows added: 2 in 0.02 seconds
+0000.779 (0) Table wp_users: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_users.table.gz - 0.6 KB)
+0000.786 (0) Table wp_usermeta: Total expected rows (approximate): 51
+0000.793 (0) Table wp_usermeta: Total rows added: 51 in 0.01 seconds
+0000.794 (0) Table wp_usermeta: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_usermeta.table.gz - 1.7 KB)
+0000.833 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0000.839 (0) Table wp_commentmeta: Total rows added: 0 in 0.01 seconds
+0000.841 (0) Table wp_commentmeta: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0000.848 (0) Table wp_comments: Total expected rows (approximate): 1
+0000.865 (0) Table wp_comments: Total rows added: 1 in 0.02 seconds
+0000.867 (0) Table wp_comments: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_comments.table.gz - 0.7 KB)
+0000.914 (0) Table wp_links: Total expected rows (approximate): 7
+0000.919 (0) Table wp_links: Total rows added: 7 in 0.00 seconds
+0000.921 (0) Table wp_links: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_links.table.gz - 0.6 KB)
+0000.928 (0) Table wp_postmeta: Total expected rows (approximate): 817
+0000.953 (0) Table wp_postmeta: Total rows added: 817 in 0.02 seconds
+0000.955 (0) Table wp_postmeta: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_postmeta.table.gz - 8.3 KB)
+0000.962 (0) Table wp_posts: Total expected rows (approximate): 271
+0001.057 (0) Table wp_posts: Total rows added: 271 in 0.09 seconds
+0001.060 (0) Table wp_posts: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_posts.table.gz - 56.9 KB)
+0001.165 (0) Table wp_signups: Total expected rows (approximate): 3
+0001.193 (0) Table wp_signups: Total rows added: 3 in 0.03 seconds
+0001.194 (0) Table wp_signups: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_signups.table.gz - 0.8 KB)
+0001.201 (0) Table wp_term_relationships: Total expected rows (approximate): 42
+0001.215 (0) Table wp_term_relationships: Total rows added: 42 in 0.01 seconds
+0001.217 (0) Table wp_term_relationships: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0001.223 (0) Table wp_term_taxonomy: Total expected rows (approximate): 4
+0001.253 (0) Table wp_term_taxonomy: Total rows added: 4 in 0.03 seconds
+0001.254 (0) Table wp_term_taxonomy: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0001.262 (0) Table wp_termmeta: Total expected rows (approximate): 11
+0001.299 (0) Table wp_termmeta: Total rows added: 11 in 0.04 seconds
+0001.301 (0) Table wp_termmeta: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_termmeta.table.gz - 0.5 KB)
+0001.309 (0) Table wp_terms: Total expected rows (approximate): 4
+0001.434 (0) Table wp_terms: Total rows added: 4 in 0.12 seconds
+0001.435 (0) Table wp_terms: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_terms.table.gz - 0.4 KB)
+0001.473 (0) Table wp_gf_addon_feed: Total expected rows (approximate): 2
+0001.484 (0) Table wp_gf_addon_feed: Total rows added: 2 in 0.01 seconds
+0001.485 (0) Table wp_gf_addon_feed: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_gf_addon_feed.table.gz - 0.6 KB)
+0001.494 (0) Table wp_gravity_sms_pro_hannanstd: Total expected rows (approximate): 0
+0001.501 (0) Table wp_gravity_sms_pro_hannanstd: Total rows added: 0 in 0.00 seconds
+0001.506 (0) Table wp_gravity_sms_pro_hannanstd: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_gravity_sms_pro_hannanstd.table.gz - 0.4 KB)
+0001.524 (0) Table wp_gravity_sms_pro_sent: Total expected rows (approximate): 0
+0001.528 (0) Table wp_gravity_sms_pro_sent: Total rows added: 0 in 0.00 seconds
+0001.529 (0) Table wp_gravity_sms_pro_sent: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_gravity_sms_pro_sent.table.gz - 0.4 KB)
+0001.561 (0) Table wp_gravity_sms_pro_verification: Total expected rows (approximate): 0
+0001.566 (0) Table wp_gravity_sms_pro_verification: Total rows added: 0 in 0.00 seconds
+0001.567 (0) Table wp_gravity_sms_pro_verification: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_gravity_sms_pro_verification.table.gz - 0.4 KB)
+0001.614 (0) Table wp_ihc_cheat_off: Total expected rows (approximate): 0
+0001.667 (0) Table wp_ihc_cheat_off: Total rows added: 0 in 0.05 seconds
+0001.669 (0) Table wp_ihc_cheat_off: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_cheat_off.table.gz - 0.3 KB)
+0001.780 (0) Table wp_ihc_coupons: Total expected rows (approximate): 0
+0001.787 (0) Table wp_ihc_coupons: Total rows added: 0 in 0.01 seconds
+0001.789 (0) Table wp_ihc_coupons: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_coupons.table.gz - 0.3 KB)
+0001.827 (0) Table wp_ihc_dashboard_notifications: Total expected rows (approximate): 2
+0001.857 (0) Table wp_ihc_dashboard_notifications: Total rows added: 2 in 0.03 seconds
+0001.859 (0) Table wp_ihc_dashboard_notifications: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_dashboard_notifications.table.gz - 0.3 KB)
+0001.944 (0) Table wp_ihc_debug_payments: Total expected rows (approximate): 0
+0001.948 (0) Table wp_ihc_debug_payments: Total rows added: 0 in 0.00 seconds
+0001.949 (0) Table wp_ihc_debug_payments: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_debug_payments.table.gz - 0.3 KB)
+0001.969 (0) Table wp_ihc_download_monitor_limit: Total expected rows (approximate): 0
+0001.972 (0) Table wp_ihc_download_monitor_limit: Total rows added: 0 in 0.00 seconds
+0001.974 (0) Table wp_ihc_download_monitor_limit: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_download_monitor_limit.table.gz - 0.3 KB)
+0002.030 (0) Table wp_ihc_gift_templates: Total expected rows (approximate): 0
+0002.034 (0) Table wp_ihc_gift_templates: Total rows added: 0 in 0.00 seconds
+0002.035 (0) Table wp_ihc_gift_templates: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_gift_templates.table.gz - 0.3 KB)
+0002.177 (0) Table wp_ihc_invitation_codes: Total expected rows (approximate): 0
+0002.187 (0) Table wp_ihc_invitation_codes: Total rows added: 0 in 0.01 seconds
+0002.190 (0) Table wp_ihc_invitation_codes: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_invitation_codes.table.gz - 0.3 KB)
+0002.249 (0) Table wp_ihc_notifications: Total expected rows (approximate): 11
+0002.256 (0) Table wp_ihc_notifications: Total rows added: 11 in 0.01 seconds
+0002.259 (0) Table wp_ihc_notifications: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_notifications.table.gz - 1.4 KB)
+0002.373 (0) Table wp_ihc_orders: Total expected rows (approximate): 0
+0002.381 (0) Table wp_ihc_orders: Total rows added: 0 in 0.00 seconds
+0002.383 (0) Table wp_ihc_orders: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_orders.table.gz - 0.4 KB)
+0002.442 (0) Table wp_ihc_orders_meta: Total expected rows (approximate): 0
+0002.452 (0) Table wp_ihc_orders_meta: Total rows added: 0 in 0.01 seconds
+0002.454 (0) Table wp_ihc_orders_meta: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_orders_meta.table.gz - 0.3 KB)
+0002.485 (0) Table wp_ihc_security_login: Total expected rows (approximate): 0
+0002.490 (0) Table wp_ihc_security_login: Total rows added: 0 in 0.00 seconds
+0002.491 (0) Table wp_ihc_security_login: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_security_login.table.gz - 0.3 KB)
+0002.515 (0) Table wp_ihc_taxes: Total expected rows (approximate): 0
+0002.520 (0) Table wp_ihc_taxes: Total rows added: 0 in 0.00 seconds
+0002.521 (0) Table wp_ihc_taxes: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_taxes.table.gz - 0.3 KB)
+0002.536 (0) Table wp_ihc_user_levels: Total expected rows (approximate): 0
+0002.540 (0) Table wp_ihc_user_levels: Total rows added: 0 in 0.00 seconds
+0002.542 (0) Table wp_ihc_user_levels: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_user_levels.table.gz - 0.3 KB)
+0002.560 (0) Table wp_ihc_user_logs: Total expected rows (approximate): 0
+0002.564 (0) Table wp_ihc_user_logs: Total rows added: 0 in 0.00 seconds
+0002.565 (0) Table wp_ihc_user_logs: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_user_logs.table.gz - 0.3 KB)
+0002.623 (0) Table wp_ihc_user_sites: Total expected rows (approximate): 0
+0002.630 (0) Table wp_ihc_user_sites: Total rows added: 0 in 0.01 seconds
+0002.632 (0) Table wp_ihc_user_sites: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_user_sites.table.gz - 0.3 KB)
+0002.909 (0) Table wp_ihc_woo_product_level_relations: Total expected rows (approximate): 0
+0002.915 (0) Table wp_ihc_woo_product_level_relations: Total rows added: 0 in 0.00 seconds
+0002.917 (0) Table wp_ihc_woo_product_level_relations: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_woo_product_level_relations.table.gz - 0.3 KB)
+0002.945 (0) Table wp_ihc_woo_products: Total expected rows (approximate): 0
+0002.955 (0) Table wp_ihc_woo_products: Total rows added: 0 in 0.01 seconds
+0002.957 (0) Table wp_ihc_woo_products: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_woo_products.table.gz - 0.4 KB)
+0002.976 (0) Table wp_indeed_members_payments: Total expected rows (approximate): 0
+0002.983 (0) Table wp_indeed_members_payments: Total rows added: 0 in 0.01 seconds
+0002.985 (0) Table wp_indeed_members_payments: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_indeed_members_payments.table.gz - 0.3 KB)
+0003.007 (0) Table wp_pmpro_discount_codes: Total expected rows (approximate): 0
+0003.013 (0) Table wp_pmpro_discount_codes: Total rows added: 0 in 0.01 seconds
+0003.015 (0) Table wp_pmpro_discount_codes: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_discount_codes.table.gz - 0.3 KB)
+0003.067 (0) Table wp_pmpro_discount_codes_levels: Total expected rows (approximate): 0
+0003.074 (0) Table wp_pmpro_discount_codes_levels: Total rows added: 0 in 0.00 seconds
+0003.076 (0) Table wp_pmpro_discount_codes_levels: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_discount_codes_levels.table.gz - 0.5 KB)
+0003.092 (0) Table wp_pmpro_discount_codes_uses: Total expected rows (approximate): 0
+0003.097 (0) Table wp_pmpro_discount_codes_uses: Total rows added: 0 in 0.00 seconds
+0003.099 (0) Table wp_pmpro_discount_codes_uses: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_discount_codes_uses.table.gz - 0.3 KB)
+0003.126 (0) Table wp_pmpro_membership_levelmeta: Total expected rows (approximate): 0
+0003.131 (0) Table wp_pmpro_membership_levelmeta: Total rows added: 0 in 0.00 seconds
+0003.134 (0) Table wp_pmpro_membership_levelmeta: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_membership_levelmeta.table.gz - 0.3 KB)
+0003.144 (0) Table wp_pmpro_membership_levels: Total expected rows (approximate): 0
+0003.153 (0) Table wp_pmpro_membership_levels: Total rows added: 0 in 0.01 seconds
+0003.155 (0) Table wp_pmpro_membership_levels: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_membership_levels.table.gz - 0.5 KB)
+0003.166 (0) Table wp_pmpro_membership_orders: Total expected rows (approximate): 0
+0003.172 (0) Table wp_pmpro_membership_orders: Total rows added: 0 in 0.01 seconds
+0003.174 (0) Table wp_pmpro_membership_orders: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_membership_orders.table.gz - 0.7 KB)
+0003.195 (0) Table wp_pmpro_memberships_categories: Total expected rows (approximate): 0
+0003.200 (0) Table wp_pmpro_memberships_categories: Total rows added: 0 in 0.00 seconds
+0003.202 (0) Table wp_pmpro_memberships_categories: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_memberships_categories.table.gz - 0.3 KB)
+0003.214 (0) Table wp_pmpro_memberships_pages: Total expected rows (approximate): 0
+0003.219 (0) Table wp_pmpro_memberships_pages: Total rows added: 0 in 0.00 seconds
+0003.221 (0) Table wp_pmpro_memberships_pages: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_memberships_pages.table.gz - 0.3 KB)
+0003.234 (0) Table wp_pmpro_memberships_users: Total expected rows (approximate): 0
+0003.239 (0) Table wp_pmpro_memberships_users: Total rows added: 0 in 0.00 seconds
+0003.241 (0) Table wp_pmpro_memberships_users: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_memberships_users.table.gz - 0.5 KB)
+0003.250 (0) Table wp_rg_form: Total expected rows (approximate): 6
+0003.256 (0) Table wp_rg_form: Total rows added: 6 in 0.01 seconds
+0003.259 (0) Table wp_rg_form: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_form.table.gz - 0.5 KB)
+0003.301 (0) Table wp_rg_form_meta: Total expected rows (approximate): 6
+0003.373 (0) Table wp_rg_form_meta: Total rows added: 6 in 0.07 seconds
+0003.376 (0) Table wp_rg_form_meta: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_form_meta.table.gz - 19.1 KB)
+0003.385 (0) Table wp_rg_form_view: Total expected rows (approximate): 12
+0003.392 (0) Table wp_rg_form_view: Total rows added: 12 in 0.00 seconds
+0003.395 (0) Table wp_rg_form_view: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_form_view.table.gz - 0.6 KB)
+0003.428 (0) Table wp_rg_incomplete_submissions: Total expected rows (approximate): 0
+0003.434 (0) Table wp_rg_incomplete_submissions: Total rows added: 0 in 0.00 seconds
+0003.458 (0) Table wp_rg_incomplete_submissions: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_incomplete_submissions.table.gz - 0.4 KB)
+0003.465 (0) Table wp_rg_lead: Total expected rows (approximate): 5
+0003.472 (0) Table wp_rg_lead: Total rows added: 5 in 0.01 seconds
+0003.475 (0) Table wp_rg_lead: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_lead.table.gz - 0.9 KB)
+0003.483 (0) Table wp_rg_lead_detail: Total expected rows (approximate): 50
+0003.490 (0) Table wp_rg_lead_detail: Total rows added: 50 in 0.00 seconds
+0003.492 (0) Table wp_rg_lead_detail: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_lead_detail.table.gz - 0.9 KB)
+0003.502 (0) Table wp_rg_lead_detail_long: Total expected rows (approximate): 0
+0003.508 (0) Table wp_rg_lead_detail_long: Total rows added: 0 in 0.01 seconds
+0003.509 (0) Table wp_rg_lead_detail_long: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_lead_detail_long.table.gz - 0.3 KB)
+0003.518 (0) Table wp_rg_lead_meta: Total expected rows (approximate): 9
+0003.566 (0) Table wp_rg_lead_meta: Total rows added: 9 in 0.05 seconds
+0003.568 (0) Table wp_rg_lead_meta: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_lead_meta.table.gz - 0.6 KB)
+0003.577 (0) Table wp_rg_lead_notes: Total expected rows (approximate): 0
+0003.586 (0) Table wp_rg_lead_notes: Total rows added: 0 in 0.00 seconds
+0003.588 (0) Table wp_rg_lead_notes: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_lead_notes.table.gz - 0.4 KB)
+0003.622 (0) Table wp_wfbadleechers: Total expected rows (approximate): 0
+0003.626 (0) Table wp_wfbadleechers: Total rows added: 0 in 0.00 seconds
+0003.627 (0) Table wp_wfbadleechers: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfbadleechers.table.gz - 0.3 KB)
+0003.646 (0) Table wp_wfblockediplog: Total expected rows (approximate): 0
+0003.679 (0) Table wp_wfblockediplog: Total rows added: 0 in 0.03 seconds
+0003.681 (0) Table wp_wfblockediplog: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfblockediplog.table.gz - 0.3 KB)
+0003.689 (0) Table wp_wfblocks: Total expected rows (approximate): 0
+0003.697 (0) Table wp_wfblocks: Total rows added: 0 in 0.01 seconds
+0003.699 (0) Table wp_wfblocks: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfblocks.table.gz - 0.4 KB)
+0003.706 (0) Table wp_wfblocksadv: Total expected rows (approximate): 0
+0003.711 (0) Table wp_wfblocksadv: Total rows added: 0 in 0.00 seconds
+0003.712 (0) Table wp_wfblocksadv: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfblocksadv.table.gz - 0.3 KB)
+0003.723 (0) Table wp_wfconfig: Total expected rows (approximate): 171
+0003.760 (0) Table wp_wfconfig: Total rows added: 171 in 0.04 seconds
+0003.762 (0) Table wp_wfconfig: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfconfig.table.gz - 233.2 KB)
+0003.770 (0) Table wp_wfcrawlers: Total expected rows (approximate): 0
+0003.777 (0) Table wp_wfcrawlers: Total rows added: 0 in 0.00 seconds
+0003.779 (0) Table wp_wfcrawlers: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfcrawlers.table.gz - 0.3 KB)
+0004.171 (0) Table wp_wffilemods: Total expected rows (approximate): 7412
+0004.750 (0) Table wp_wffilemods: Total rows added: 7412 in 0.58 seconds
+0004.753 (0) Table wp_wffilemods: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wffilemods.table.gz - 575.7 KB)
+0004.763 (0) Table wp_wfhits: Total expected rows (approximate): 298
+0004.794 (0) Table wp_wfhits: Total rows added: 298 in 0.03 seconds
+0004.797 (0) Table wp_wfhits: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfhits.table.gz - 6.7 KB)
+0004.835 (0) Table wp_wfhoover: Total expected rows (approximate): 0
+0004.839 (0) Table wp_wfhoover: Total rows added: 0 in 0.00 seconds
+0004.841 (0) Table wp_wfhoover: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfhoover.table.gz - 0.3 KB)
+0004.940 (0) Table wp_wfissues: Total expected rows (approximate): 11
+0004.946 (0) Table wp_wfissues: Total rows added: 11 in 0.00 seconds
+0004.948 (0) Table wp_wfissues: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfissues.table.gz - 3.2 KB)
+0005.071 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 7412
+0005.233 (0) Table wp_wfknownfilelist: Total rows added: 7412 in 0.16 seconds
+0005.235 (0) Table wp_wfknownfilelist: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfknownfilelist.table.gz - 72.1 KB)
+0005.243 (0) Table wp_wfleechers: Total expected rows (approximate): 30
+0005.250 (0) Table wp_wfleechers: Total rows added: 30 in 0.01 seconds
+0005.252 (0) Table wp_wfleechers: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfleechers.table.gz - 0.5 KB)
+0005.261 (0) Table wp_wflockedout: Total expected rows (approximate): 0
+0005.266 (0) Table wp_wflockedout: Total rows added: 0 in 0.00 seconds
+0005.267 (0) Table wp_wflockedout: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wflockedout.table.gz - 0.3 KB)
+0005.276 (0) Table wp_wflocs: Total expected rows (approximate): 0
+0005.283 (0) Table wp_wflocs: Total rows added: 0 in 0.01 seconds
+0005.285 (0) Table wp_wflocs: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wflocs.table.gz - 0.4 KB)
+0005.318 (0) Table wp_wflogins: Total expected rows (approximate): 31
+0005.326 (0) Table wp_wflogins: Total rows added: 31 in 0.01 seconds
+0005.327 (0) Table wp_wflogins: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wflogins.table.gz - 1.1 KB)
+0005.336 (0) Table wp_wfnet404s: Total expected rows (approximate): 0
+0005.341 (0) Table wp_wfnet404s: Total rows added: 0 in 0.00 seconds
+0005.343 (0) Table wp_wfnet404s: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfnet404s.table.gz - 0.3 KB)
+0005.386 (0) Table wp_wfnotifications: Total expected rows (approximate): 4
+0005.393 (0) Table wp_wfnotifications: Total rows added: 4 in 0.01 seconds
+0005.395 (0) Table wp_wfnotifications: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfnotifications.table.gz - 1.3 KB)
+0005.429 (0) Table wp_wfpendingissues: Total expected rows (approximate): 0
+0005.434 (0) Table wp_wfpendingissues: Total rows added: 0 in 0.00 seconds
+0005.436 (0) Table wp_wfpendingissues: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfpendingissues.table.gz - 0.4 KB)
+0005.462 (0) Table wp_wfreversecache: Total expected rows (approximate): 0
+0005.467 (0) Table wp_wfreversecache: Total rows added: 0 in 0.00 seconds
+0005.468 (0) Table wp_wfreversecache: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfreversecache.table.gz - 0.3 KB)
+0005.484 (0) Table wp_wfscanners: Total expected rows (approximate): 2
+0005.514 (0) Table wp_wfscanners: Total rows added: 2 in 0.03 seconds
+0005.516 (0) Table wp_wfscanners: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfscanners.table.gz - 0.3 KB)
+0005.569 (0) Table wp_wfsnipcache: Total expected rows (approximate): 0
+0005.574 (0) Table wp_wfsnipcache: Total rows added: 0 in 0.00 seconds
+0005.576 (0) Table wp_wfsnipcache: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfsnipcache.table.gz - 0.4 KB)
+0005.754 (0) Table wp_wfstatus: Total expected rows (approximate): 967
+0005.792 (0) Table wp_wfstatus: Total rows added: 967 in 0.04 seconds
+0005.794 (0) Table wp_wfstatus: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfstatus.table.gz - 17.4 KB)
+0005.820 (0) Table wp_wfthrottlelog: Total expected rows (approximate): 0
+0005.866 (0) Table wp_wfthrottlelog: Total rows added: 0 in 0.04 seconds
+0005.867 (0) Table wp_wfthrottlelog: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfthrottlelog.table.gz - 0.3 KB)
+0005.873 (0) Table wp_wfvulnscanners: Total expected rows (approximate): 0
+0005.877 (0) Table wp_wfvulnscanners: Total rows added: 0 in 0.00 seconds
+0005.878 (0) Table wp_wfvulnscanners: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfvulnscanners.table.gz - 0.3 KB)
+0005.885 (0) Table wp_wysija_campaign: Total expected rows (approximate): 0
+0005.890 (0) Table wp_wysija_campaign: Total rows added: 0 in 0.00 seconds
+0005.891 (0) Table wp_wysija_campaign: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_campaign.table.gz - 0.3 KB)
+0005.909 (0) Table wp_wysija_campaign_list: Total expected rows (approximate): 0
+0005.913 (0) Table wp_wysija_campaign_list: Total rows added: 0 in 0.00 seconds
+0005.914 (0) Table wp_wysija_campaign_list: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_campaign_list.table.gz - 0.3 KB)
+0005.958 (0) Table wp_wysija_custom_field: Total expected rows (approximate): 0
+0005.962 (0) Table wp_wysija_custom_field: Total rows added: 0 in 0.00 seconds
+0005.964 (0) Table wp_wysija_custom_field: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_custom_field.table.gz - 0.3 KB)
+0005.972 (0) Table wp_wysija_email: Total expected rows (approximate): 1
+0005.977 (0) Table wp_wysija_email: Total rows added: 1 in 0.00 seconds
+0005.978 (0) Table wp_wysija_email: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_email.table.gz - 0.7 KB)
+0006.495 (0) Table wp_wysija_email_user_stat: Total expected rows (approximate): 0
+0006.507 (0) Table wp_wysija_email_user_stat: Total rows added: 0 in 0.01 seconds
+0006.509 (0) Table wp_wysija_email_user_stat: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_email_user_stat.table.gz - 0.3 KB)
+0006.517 (0) Table wp_wysija_email_user_url: Total expected rows (approximate): 0
+0006.522 (0) Table wp_wysija_email_user_url: Total rows added: 0 in 0.00 seconds
+0006.524 (0) Table wp_wysija_email_user_url: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_email_user_url.table.gz - 0.3 KB)
+0006.560 (0) Table wp_wysija_form: Total expected rows (approximate): 1
+0006.587 (0) Table wp_wysija_form: Total rows added: 1 in 0.03 seconds
+0006.608 (0) Table wp_wysija_form: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_form.table.gz - 0.8 KB)
+0006.673 (0) Table wp_wysija_list: Total expected rows (approximate): 1
+0007.723 (0) Table wp_wysija_list: Total rows added: 1 in 1.05 seconds
+0007.725 (0) Table wp_wysija_list: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_list.table.gz - 0.4 KB)
+0007.823 (0) Table wp_wysija_queue: Total expected rows (approximate): 0
+0007.827 (0) Table wp_wysija_queue: Total rows added: 0 in 0.00 seconds
+0007.830 (0) Table wp_wysija_queue: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_queue.table.gz - 0.3 KB)
+0007.840 (0) Table wp_wysija_url: Total expected rows (approximate): 0
+0007.847 (0) Table wp_wysija_url: Total rows added: 0 in 0.00 seconds
+0007.848 (0) Table wp_wysija_url: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_url.table.gz - 0.3 KB)
+0007.954 (0) Table wp_wysija_url_mail: Total expected rows (approximate): 0
+0007.961 (0) Table wp_wysija_url_mail: Total rows added: 0 in 0.01 seconds
+0007.962 (0) Table wp_wysija_url_mail: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_url_mail.table.gz - 0.3 KB)
+0008.032 (0) Table wp_wysija_user: Total expected rows (approximate): 2
+0008.038 (0) Table wp_wysija_user: Total rows added: 2 in 0.00 seconds
+0008.040 (0) Table wp_wysija_user: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_user.table.gz - 0.6 KB)
+0008.088 (0) Table wp_wysija_user_field: Total expected rows (approximate): 2
+0008.094 (0) Table wp_wysija_user_field: Total rows added: 2 in 0.01 seconds
+0008.096 (0) Table wp_wysija_user_field: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_user_field.table.gz - 0.4 KB)
+0008.109 (0) Table wp_wysija_user_history: Total expected rows (approximate): 0
+0008.155 (0) Table wp_wysija_user_history: Total rows added: 0 in 0.05 seconds
+0008.157 (0) Table wp_wysija_user_history: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_user_history.table.gz - 0.3 KB)
+0008.169 (0) Table wp_wysija_user_list: Total expected rows (approximate): 2
+0008.174 (0) Table wp_wysija_user_list: Total rows added: 2 in 0.00 seconds
+0008.176 (0) Table wp_wysija_user_list: finishing file (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_user_list.table.gz - 0.3 KB)
+0008.184 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_options.table.gz (1/92): adding to final database dump
+0008.210 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_users.table.gz (2/92): adding to final database dump
+0008.211 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_usermeta.table.gz (3/92): adding to final database dump
+0008.226 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_commentmeta.table.gz (4/92): adding to final database dump
+0008.228 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_comments.table.gz (5/92): adding to final database dump
+0008.231 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_links.table.gz (6/92): adding to final database dump
+0008.234 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_postmeta.table.gz (7/92): adding to final database dump
+0008.243 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_posts.table.gz (8/92): adding to final database dump
+0008.272 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_signups.table.gz (9/92): adding to final database dump
+0008.274 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_term_relationships.table.gz (10/92): adding to final database dump
+0008.276 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_term_taxonomy.table.gz (11/92): adding to final database dump
+0008.278 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_termmeta.table.gz (12/92): adding to final database dump
+0008.280 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_terms.table.gz (13/92): adding to final database dump
+0008.282 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_gf_addon_feed.table.gz (14/92): adding to final database dump
+0008.284 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_gravity_sms_pro_hannanstd.table.gz (15/92): adding to final database dump
+0008.286 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_gravity_sms_pro_sent.table.gz (16/92): adding to final database dump
+0008.288 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_gravity_sms_pro_verification.table.gz (17/92): adding to final database dump
+0008.290 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_cheat_off.table.gz (18/92): adding to final database dump
+0008.291 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_coupons.table.gz (19/92): adding to final database dump
+0008.292 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_dashboard_notifications.table.gz (20/92): adding to final database dump
+0008.293 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_debug_payments.table.gz (21/92): adding to final database dump
+0008.295 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_download_monitor_limit.table.gz (22/92): adding to final database dump
+0008.296 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_gift_templates.table.gz (23/92): adding to final database dump
+0008.301 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_invitation_codes.table.gz (24/92): adding to final database dump
+0008.303 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_notifications.table.gz (25/92): adding to final database dump
+0008.305 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_orders.table.gz (26/92): adding to final database dump
+0008.307 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_orders_meta.table.gz (27/92): adding to final database dump
+0008.309 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_security_login.table.gz (28/92): adding to final database dump
+0008.311 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_taxes.table.gz (29/92): adding to final database dump
+0008.312 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_user_levels.table.gz (30/92): adding to final database dump
+0008.314 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_user_logs.table.gz (31/92): adding to final database dump
+0008.315 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_user_sites.table.gz (32/92): adding to final database dump
+0008.316 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_woo_product_level_relations.table.gz (33/92): adding to final database dump
+0008.317 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_ihc_woo_products.table.gz (34/92): adding to final database dump
+0008.318 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_indeed_members_payments.table.gz (35/92): adding to final database dump
+0008.320 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_discount_codes.table.gz (36/92): adding to final database dump
+0008.321 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_discount_codes_levels.table.gz (37/92): adding to final database dump
+0008.323 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_discount_codes_uses.table.gz (38/92): adding to final database dump
+0008.326 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_membership_levelmeta.table.gz (39/92): adding to final database dump
+0008.327 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_membership_levels.table.gz (40/92): adding to final database dump
+0008.348 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_membership_orders.table.gz (41/92): adding to final database dump
+0008.350 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_memberships_categories.table.gz (42/92): adding to final database dump
+0008.351 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_memberships_pages.table.gz (43/92): adding to final database dump
+0008.352 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_pmpro_memberships_users.table.gz (44/92): adding to final database dump
+0008.354 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_form.table.gz (45/92): adding to final database dump
+0008.356 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_form_meta.table.gz (46/92): adding to final database dump
+0008.365 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_form_view.table.gz (47/92): adding to final database dump
+0008.367 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_incomplete_submissions.table.gz (48/92): adding to final database dump
+0008.368 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_lead.table.gz (49/92): adding to final database dump
+0008.370 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_lead_detail.table.gz (50/92): adding to final database dump
+0008.373 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_lead_detail_long.table.gz (51/92): adding to final database dump
+0008.374 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_lead_meta.table.gz (52/92): adding to final database dump
+0008.376 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_rg_lead_notes.table.gz (53/92): adding to final database dump
+0008.377 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfbadleechers.table.gz (54/92): adding to final database dump
+0008.378 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfblockediplog.table.gz (55/92): adding to final database dump
+0008.379 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfblocks.table.gz (56/92): adding to final database dump
+0008.381 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfblocksadv.table.gz (57/92): adding to final database dump
+0008.383 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfconfig.table.gz (58/92): adding to final database dump
+0008.405 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfcrawlers.table.gz (59/92): adding to final database dump
+0008.407 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wffilemods.table.gz (60/92): adding to final database dump
+0008.549 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfhits.table.gz (61/92): adding to final database dump
+0008.555 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfhoover.table.gz (62/92): adding to final database dump
+0008.557 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfissues.table.gz (63/92): adding to final database dump
+0008.559 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfknownfilelist.table.gz (64/92): adding to final database dump
+0008.633 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfleechers.table.gz (65/92): adding to final database dump
+0008.635 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wflockedout.table.gz (66/92): adding to final database dump
+0008.637 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wflocs.table.gz (67/92): adding to final database dump
+0008.640 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wflogins.table.gz (68/92): adding to final database dump
+0008.642 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfnet404s.table.gz (69/92): adding to final database dump
+0008.644 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfnotifications.table.gz (70/92): adding to final database dump
+0008.646 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfpendingissues.table.gz (71/92): adding to final database dump
+0008.648 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfreversecache.table.gz (72/92): adding to final database dump
+0008.650 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfscanners.table.gz (73/92): adding to final database dump
+0008.652 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfsnipcache.table.gz (74/92): adding to final database dump
+0008.653 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfstatus.table.gz (75/92): adding to final database dump
+0008.666 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfthrottlelog.table.gz (76/92): adding to final database dump
+0008.668 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wfvulnscanners.table.gz (77/92): adding to final database dump
+0008.669 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_campaign.table.gz (78/92): adding to final database dump
+0008.672 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_campaign_list.table.gz (79/92): adding to final database dump
+0008.673 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_custom_field.table.gz (80/92): adding to final database dump
+0008.675 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_email.table.gz (81/92): adding to final database dump
+0008.677 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_email_user_stat.table.gz (82/92): adding to final database dump
+0008.679 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_email_user_url.table.gz (83/92): adding to final database dump
+0008.681 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_form.table.gz (84/92): adding to final database dump
+0008.683 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_list.table.gz (85/92): adding to final database dump
+0008.685 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_queue.table.gz (86/92): adding to final database dump
+0008.687 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_url.table.gz (87/92): adding to final database dump
+0008.689 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_url_mail.table.gz (88/92): adding to final database dump
+0008.691 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_user.table.gz (89/92): adding to final database dump
+0008.693 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_user_field.table.gz (90/92): adding to final database dump
+0008.694 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_user_history.table.gz (91/92): adding to final database dump
+0008.696 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db-table-wp_wysija_user_list.table.gz (92/92): adding to final database dump
+0008.699 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db.gz: finished writing out complete database file (1064 KB)
+0008.726 (0) Total database tables backed up: 92 (backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db.gz, size: 1105917, checksum (SHA1): 23d58871b4e30148040645762a5db22fa36270c1)
+0008.735 (0) backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0008.736 (0) Saving backup history. Total backup size: 1.1 MB
+0008.742 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0008.746 (0) Cloud backup selection (1/1):  (last)
+0008.851 (0) No remote despatch: user chose no remote backup service
+0008.853 (0) Recording as successfully uploaded: backup_2017-06-29-0808_The_Give_Back_Campaign_a7e4e29a4d5b-db.gz (fcd0fc726effa86aaa5a3bc4b68e61ae)
+0008.857 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0008.858 (0) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1497554460, 1497472500, 1495920960
+0008.859 (0) Number of backup sets in history: 5; groups (db): 1
+0008.860 (0) Examining (for databases) backup set with group_id=0, nonce=780a8379a42e, datestamp=1498723681 (Jun 29 2017 08:08:01)
+0008.860 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.861 (0) Examining (for databases) backup set with group_id=0, nonce=e0121789df19, datestamp=1498354570 (Jun 25 2017 01:36:10)
+0008.862 (0) 1498354570: db: this set includes a database (backup_2017-06-25-0136_The_Give_Back_Campaign_e0121789df19-db.gz); db count is now 1
+0008.863 (0) 1498354570: db: over retain limit (1); will delete this database
+0008.864 (0) Delete file: backup_2017-06-25-0136_The_Give_Back_Campaign_e0121789df19-db.gz, service=none
+0008.865 (0) Deleting local copy (backup_2017-06-25-0136_The_Give_Back_Campaign_e0121789df19-db.gz)
+0008.908 (0) This backup set is now empty; will remove from history
+0008.948 (0) Deleting log file (log.e0121789df19.txt)
+0008.949 (0) Number of backup sets in history: 4; groups (files): 1
+0008.950 (0) Examining (for files) backup set with nonce=780a8379a42e, datestamp=1498723681 (Jun 29 2017 08:08:01)
+0008.951 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.951 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0008.954 (0) Resume backup (a7e4e29a4d5b, 0): finish run
+0008.956 (0) Decremented the semaphore (fd) by 1
+0008.957 (0) Semaphore (fd) unlocked
+0008.959 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0008.964 (0) No email will/can be sent - the user has not configured an email address.
+0008.966 (0) The backup apparently succeeded and is now complete

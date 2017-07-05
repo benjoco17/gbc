@@ -1,0 +1,2 @@
+[14-Oct-2015 02:18:32 Antarctica/Macquarie] PHP Fatal error:  Call to a member function get_row() on a non-object in /home/buyabale/public_html/wp-content/plugins/iq-testimonials/admin/iq-testimonials-settings.php on line 241
+[14-Oct-2015 02:18:34 Antarctica/Macquarie] PHP Fatal error:  Call to a member function get_row() on a non-object in /home/buyabale/public_html/wp-content/plugins/iq-testimonials/admin/iq-testimonials-admin.php on line 31

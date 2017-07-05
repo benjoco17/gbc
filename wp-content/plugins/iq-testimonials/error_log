@@ -1,0 +1,2 @@
+[30-Aug-2015 17:08:14 Antarctica/Macquarie] PHP Fatal error:  Call to undefined function wp_upload_dir() in /home/buyabale/public_html/wp-content/plugins/iq-testimonials/iq-testimonials.php on line 14
+[14-Oct-2015 02:10:29 Antarctica/Macquarie] PHP Fatal error:  Call to undefined function wp_upload_dir() in /home/buyabale/public_html/wp-content/plugins/iq-testimonials/iq-testimonials.php on line 14

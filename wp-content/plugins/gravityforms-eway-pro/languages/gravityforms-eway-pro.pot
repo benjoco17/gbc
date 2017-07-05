@@ -1,0 +1,2475 @@
+# Copyright (C) 2017 WebAware
+# This file is distributed under the same license as the Gravity Forms eWAY Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms eWAY Pro 1.1.3\n"
+"Report-Msgid-Bugs-To: translate@webaware.com.au\n"
+"POT-Creation-Date: 2017-01-30 06:43:56+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WebAware <translate@webaware.com.au>\n"
+"Language-Team: WebAware <translate@webaware.com.au>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Translation-Home: "
+"https://translate.webaware.com.au/glotpress/projects/gravityforms-eway-pro/\n"
+
+#: includes/class.GFEwayProAddOn.php:149
+msgid "Custom fields available to Gravity Forms eWAY Pro feeds."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:340
+msgid "eWAY Payments Pro Settings"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:358
+msgid "Live settings"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:359 includes/class.GFEwayProAddOn.php:400
+msgid ""
+"These are default settings. Feeds can specify different settings to "
+"override these settings."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:367 includes/class.GFEwayProAddOn.php:408
+msgid "eWAY Rapid API key, from your MYeWAY console."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:375 includes/class.GFEwayProAddOn.php:416
+msgid "eWAY Rapid API password, from your MYeWAY console."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:384 includes/class.GFEwayProAddOn.php:425
+msgid ""
+"Securely encrypts sensitive credit card information in the customer's "
+"browser, so that you can accept credit cards on your website without full "
+"PCI certification. Not required for Responsive Shared Page forms."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:392
+msgid ""
+"eWAY customer ID, required for Recurring Payments XML API; from your MYeWAY "
+"console."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:399
+msgid "Sandbox settings"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:432
+msgid "Licensing"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:433
+msgid "The software license key for this add-on, for automatic updates."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:444
+msgid "Settings updated"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:516
+msgid "NB: Direct Connection requires a Credit Card field on the form"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:519
+msgid "NB: Recurring Payments requires a Credit Card field on the form"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:522
+msgid ""
+"NB: Your form has a Credit Card field, which is not required for the "
+"selected Integration Method"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:537
+msgid "eWAY Payments Transaction Settings"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:559
+msgid "Give this feed a name, to differentiate it from other feeds."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:567
+msgid ""
+"Credit cards will not be processed in Test mode. Special card numbers must "
+"be used."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:579
+msgid ""
+"Responsive Shared Page takes payers offsite to enter credit card details. "
+"Direct Connection and Recurring Payments require an SSL/TLS certificate and "
+"PCI compliance accredited by eWAY."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:592
+msgid ""
+"Capture processes the payment immediately. Authorize holds the amount on "
+"the customer's card for processing later."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:604
+msgid ""
+"You can use different connection settings and currency for each feed if you "
+"need to."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:606
+msgid "Override the default connection settings, just for this feed"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:618
+msgid "Connection Settings"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:628
+msgid ""
+"You can use a different API key for this feed, or leave it blank to use the "
+"add-on settings."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:637
+msgid ""
+"You can use a different API password for this feed, or leave it blank to "
+"use the add-on settings."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:647
+msgid ""
+"You can use a different Client Side Encryption Key for this feed, or leave "
+"it blank to use the add-on settings."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:656
+msgid ""
+"You can use a different Customer ID for this feed, or leave it blank to use "
+"the add-on settings."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:663
+msgid ""
+"You can use a different currency for this feed, or use the Gravity Forms "
+"settings."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:664
+msgid "Use default currency"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:675
+msgid "Token Payments Settings"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:678
+msgid ""
+"With <a href='%s' target='_blank'>eWAY Token Payments</a>, you can have "
+"eWAY safely remember your customers' credit card numbers without storing "
+"them on your website. You can then manually process new token payments "
+"through MYeWAY."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:680
+msgid ""
+"If your customer is logged in (or you're creating a new WordPress user for "
+"them), your website can remember their customer token so that they can pay "
+"more quickly next time."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:688
+msgid ""
+"Remember customers with eWAY token payments, so that they can be rebilled "
+"from MYeWAY and can make payments without entering their card details again."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:699
+msgid "Recurring Payments Settings"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:708
+msgid ""
+"Select which field determines the recurring payment amount, or select "
+"\"Form Total\" to use the total of all pricing fields as the recurring "
+"amount."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:715
+msgid "Select the interval between recurring payments."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:722
+msgid ""
+"Select how many times the recurring payment should be made. The default is "
+"to bill the customer until the subscription is canceled."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:730
+msgid ""
+"Select which field determines the initial payment amount, e.g. for an "
+"establishment charge or setup fee."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:737
+msgid ""
+"Select when recurring payments should start. The default is to start "
+"recurring payments immediately."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:748
+msgid "Mapped Field Settings"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:756
+msgid "Shipping address is left empty"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:757
+msgid "Shipping address is the same as Billing address"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:758
+msgid "Shipping address is from mapped fields, below"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:777
+msgid "Responsive Shared Page Settings"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:808
+msgid "Redirect to this URL if the transaction is canceled."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:810
+msgid ""
+"Please note: standard Gravity Forms submission logic applies if the "
+"transaction is successful."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:818
+msgid "Allow customers to edit their details on the eWAY hosted page"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:828
+msgid "Create post only when transaction completes"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:837
+msgid "Subscribe user to MailChimp only when transaction completes"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:846
+msgid "Register user only when transaction completes"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:855
+msgid "Send feed to Zapier only when transaction completes"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:864
+msgid "Send feed to Salesforce only when transaction completes"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:866
+msgid "Supports the free Gravity Forms Salesforce add-on."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:874
+msgid "Always execute delayed actions, regardless of payment status"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:877
+msgid ""
+"The delayed actions above will only be processed for successful "
+"transactions, unless this option is enabled."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:885
+msgid "Confirm the phone number using Beagle Verify"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:894
+msgid "Confirm the email address using Beagle Verify"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:906
+msgid "Deprecated Notification Settings"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:908
+msgid ""
+"Delayed notification settings will be removed in a future version of the "
+"add-on, but are preserved here for compatibility. Please update your "
+"notifications to use <a href=\"%s\" target=\"_blank\">form action "
+"events</a> instead, then disable these settings."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:916
+msgid "Send notifications only when transaction completes"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:918
+msgid ""
+"Delayed notifications will be processed regardless of transaction status. "
+"You can make notifications conditional on AuthCode \"is not\" an empty "
+"field for successful transactions, or \"is\" an empty field for failed or "
+"canceled transactions."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:936
+msgid "Feed Conditions"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:945
+msgid ""
+"When the eWAY condition is enabled, form submissions will only be sent to "
+"eWAY when the condition is met. When disabled, all form submissions will be "
+"sent to eWAY."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1362
+msgid "Select a Product Field"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1403
+msgid "Create customer even if there is nothing to charge"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1711
+#. translators: 1: currency code; 2: currency name
+msgid "%1$s &mdash; %2$s"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1804
+msgid "No eWAY API key or password for payment; please tell the web master."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1814
+msgid "This form has no products or totals; unable to process transaction."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1877
+msgid "Payment already submitted and processed - please close your browser window."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1970
+msgid "Invalid eWAY Pro payment method, unable to process transaction"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2113
+msgid "Payment has been captured successfully. Amount: %1$s. Transaction ID: %2$s."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2116
+msgid ""
+"PreAuth payment has been saved successfully. Amount: %1$s. Transaction ID: "
+"%2$s."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2137
+msgid "Failed to capture payment."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2140
+msgid "PreAuth payment failed."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2259
+#: includes/class.GFEwayProAddOn.php:2793
+msgid "Transaction failed"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2328
+msgid "Customer creation failed"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2350
+#: includes/class.GFEwayProAddOn.php:2965
+msgid "eWAY customer created with token: %s"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2487
+msgid "Recurring payment failed"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2530
+msgid "Invalid recurring payments interval unit"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2551
+#: includes/class.GFEwayProAddOn.php:2560
+msgid "Invalid start date given for eWAY Recurring Payment"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2595
+msgid "Invalid recurring payments recurrences, less than 0"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2656
+#. translators: 1: interval; 2: date start
+msgid "Recurring payment created. Payment %1$s every %2$s, from %3$s"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2663
+#. translators: 1: interval; 2: period; 3: date start; 4: date end
+msgid ""
+"Recurring payment created. Payment %1$s every %2$s for %3$s, from %4$s "
+"until %5$s"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2668
+#. translators: %s is initial payment amount
+msgid "Initial payment %s"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2924
+msgid "Transaction could not be retrieved from eWAY"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2937
+msgid "Invalid entry ID: %s"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:3608
+msgid "Payment information was manually updated."
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:3612
+#. translators: 1: old payment status; 2: new payment status
+msgid "Payment status changed from %1$s to %2$s."
+msgstr ""
+
+#: includes/class.GFEwayProFieldCustomerTokens.php:47
+msgid "Only one Customer Tokens field can be added to the form"
+msgstr ""
+
+#: includes/class.GFEwayProPayment.php:663
+msgid "Amount must be given as a number in dollars and cents"
+msgstr ""
+
+#: includes/class.GFEwayProPayment.php:680
+msgid "Cardholder name cannot be empty"
+msgstr ""
+
+#: includes/class.GFEwayProPayment.php:683
+msgid "Card number cannot be empty"
+msgstr ""
+
+#: includes/class.GFEwayProPayment.php:689
+msgid "Card expiry month cannot be empty"
+msgstr ""
+
+#: includes/class.GFEwayProPayment.php:692
+#: includes/class.GFEwayProPayment.php:700
+msgid "Card expiry month must be a number between 1 and 12"
+msgstr ""
+
+#: includes/class.GFEwayProPayment.php:707
+msgid "Card expiry year cannot be empty"
+msgstr ""
+
+#: includes/class.GFEwayProPayment.php:710
+#: includes/class.GFEwayProPayment.php:719
+msgid "Card expiry year must be a two or four digit year"
+msgstr ""
+
+#: includes/class.GFEwayProPayment.php:723
+#: includes/class.GFEwayProPayment.php:726
+msgid "Card expiry can't be in the past"
+msgstr ""
+
+#: includes/class.GFEwayProPayment.php:1218
+#: includes/class.GFEwayProPayment.php:1227
+msgid "Error posting eWAY request: %s"
+msgstr ""
+
+#: includes/class.GFEwayProPayment.php:1231
+#. translators: 1. the error code; 2. the error message
+msgid "Error posting eWAY request: %1$s, %2$s"
+msgstr ""
+
+#: includes/class.GFEwayProResponseCustomerQuery.php:34
+msgid "Invalid response from eWAY for token customer request"
+msgstr ""
+
+#: includes/class.GFEwayProResponseDirectPayment.php:88
+msgid "Invalid response from eWAY for Direct payment"
+msgstr ""
+
+#: includes/class.GFEwayProResponseQuery.php:52
+#: includes/class.GFEwayProResponseSharedPage.php:58
+msgid "Invalid response from eWAY for Shared Page request"
+msgstr ""
+
+#: includes/class.GFEwayProResponseRecurringXML.php:41
+msgid "eWAY payment request returned nothing; please check your card details"
+msgstr ""
+
+#: includes/class.GFEwayProResponseRecurringXML.php:71
+msgid "Invalid response from eWAY for recurring payment: %s"
+msgstr ""
+
+#: views/error-payment-failure.php:12
+msgid "eWAY payment request error"
+msgstr ""
+
+#: views/requires-extensions.php:8
+msgid ""
+"Gravity Forms eWAY Pro requires these missing PHP extensions. Please "
+"contact your website host to have these extensions installed."
+msgstr ""
+
+#: views/requires-gravity-forms-upgrade.php:8
+msgid ""
+"Gravity Forms eWAY Pro requires <a target=\"_blank\" href=\"%1$s\">Gravity "
+"Forms</a> version %2$s or higher; your website has Gravity Forms version "
+"%3$s"
+msgstr ""
+
+#: views/requires-gravity-forms.php:8
+msgid ""
+"Gravity Forms eWAY Pro requires <a target=\"_blank\" href=\"%s\">Gravity "
+"Forms</a> to be installed and activated."
+msgstr ""
+
+#: views/requires-pcre.php:8
+msgid ""
+"Gravity Forms eWAY Pro requires <a target=\"_blank\" href=\"%1$s\">PCRE</a> "
+"version %2$s or higher; your website has PCRE version %3$s"
+msgstr ""
+
+#: views/requires-php.php:8
+msgid ""
+"Gravity Forms eWAY Pro requires PHP %1$s or higher; your website has PHP "
+"%2$s which is <a target=\"_blank\" href=\"%3$s\">old, obsolete, and "
+"unsupported</a>."
+msgstr ""
+
+#: views/requires-php.php:10
+msgid "Please upgrade your website hosting. At least PHP %s is recommended."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Gravity Forms eWAY Pro"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://gfeway.webaware.net.au/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Easily create online payment forms with Gravity Forms and eWAY."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WebAware"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://shop.webaware.com.au/"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:136
+msgctxt "form editor buttons"
+msgid "Gravity Forms eWAY Pro"
+msgstr ""
+
+#: includes/class.GFEwayProFieldCustomerTokens.php:34
+#: includes/class.GFEwayProFieldCustomerTokens.php:151
+msgctxt "form editor buttons"
+msgid "Customer Tokens"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:158
+msgctxt "add-on full title"
+msgid "eWAY Payments Pro"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:159
+msgctxt "add-on short title"
+msgid "eWAY Payments"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:364 includes/class.GFEwayProAddOn.php:405
+#: includes/class.GFEwayProAddOn.php:624
+msgctxt "feed field name"
+msgid "API Key"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:372 includes/class.GFEwayProAddOn.php:413
+#: includes/class.GFEwayProAddOn.php:633
+msgctxt "feed field name"
+msgid "API Password"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:380 includes/class.GFEwayProAddOn.php:421
+#: includes/class.GFEwayProAddOn.php:642
+msgctxt "feed field name"
+msgid "Client Side Encryption Key"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:389 includes/class.GFEwayProAddOn.php:652
+msgctxt "feed field name"
+msgid "Customer ID"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:438
+msgctxt "feed field name"
+msgid "License key"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:556 includes/class.GFEwayProAddOn.php:1235
+msgctxt "feed field name"
+msgid "Feed name"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:577 includes/class.GFEwayProAddOn.php:1237
+msgctxt "feed field name"
+msgid "Integration Method"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:590
+msgctxt "feed field name"
+msgid "Payment Method"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:602
+msgctxt "feed field name"
+msgid "Customize Connection"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:661
+msgctxt "feed field name"
+msgid "Currency"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:686
+msgctxt "feed field name"
+msgid "Remember Customer"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:705
+msgctxt "feed field name"
+msgid "Recurring Amount"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:713
+msgctxt "feed field name"
+msgid "Billing Cycle"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:720
+msgctxt "feed field name"
+msgid "Recurring Times"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:727
+msgctxt "feed field name"
+msgid "Initial Amount"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:735
+msgctxt "feed field name"
+msgid "Recurring Start"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:753
+msgctxt "feed field name"
+msgid "Shipping Address"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:783
+msgctxt "feed field name"
+msgid "Shared Page Theme"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:804
+msgctxt "feed field name"
+msgid "Cancel URL"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:815
+msgctxt "feed field name"
+msgid "Allow Customer Edit"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:825
+msgctxt "feed field name"
+msgid "Create Post"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:834
+msgctxt "feed field name"
+msgid "MailChimp Subscription"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:843
+msgctxt "feed field name"
+msgid "User Registration"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:852
+msgctxt "feed field name"
+msgid "Zapier"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:861
+msgctxt "feed field name"
+msgid "Salesforce"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:871
+msgctxt "feed field name"
+msgid "Always Execute"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:882
+msgctxt "feed field name"
+msgid "Verify Customer Phone"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:891
+msgctxt "feed field name"
+msgid "Verify Customer Email"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:913
+msgctxt "feed field name"
+msgid "Notifications"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:941
+msgctxt "feed field name"
+msgid "eWAY Condition"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:565 includes/class.GFEwayProAddOn.php:1236
+msgctxt "payment transaction mode"
+msgid "Mode"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:569 includes/class.GFEwayProAddOn.php:1252
+msgctxt "payment transaction mode"
+msgid "Live"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:570 includes/class.GFEwayProAddOn.php:1256
+msgctxt "payment transaction mode"
+msgid "Test"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:581 includes/class.GFEwayProAddOn.php:1277
+msgctxt "integration method"
+msgid "Responsive Shared Page"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:582 includes/class.GFEwayProAddOn.php:1281
+msgctxt "integration method"
+msgid "Direct Connection"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:583 includes/class.GFEwayProAddOn.php:1285
+msgctxt "integration method"
+msgid "Recurring Payments"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:594
+msgctxt "payment method"
+msgid "Capture"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:595
+msgctxt "payment method"
+msgid "Authorize"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:627 includes/class.GFEwayProAddOn.php:636
+#: includes/class.GFEwayProAddOn.php:646 includes/class.GFEwayProAddOn.php:655
+msgctxt "field placeholder"
+msgid "Leave empty to use add-on settings"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:807
+msgctxt "field placeholder"
+msgid "Leave empty to use default Gravity Forms confirmation handler"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:786
+msgctxt "shared page theme"
+msgid "Use default theme"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:944
+msgctxt "eWAY condition instructions"
+msgid "Send to eWAY if"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:966
+msgctxt "mapped field name"
+msgid "Description"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:971
+msgctxt "mapped field name"
+msgid "Customer Title"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:976
+msgctxt "mapped field name"
+msgid "Customer First Name"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:981
+msgctxt "mapped field name"
+msgid "Customer Last Name"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:986
+msgctxt "mapped field name"
+msgid "Company Name"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:991
+msgctxt "mapped field name"
+msgid "Job Description"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:996
+msgctxt "mapped field name"
+msgid "Email"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1001
+msgctxt "mapped field name"
+msgid "Billing Address 1"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1006
+msgctxt "mapped field name"
+msgid "Billing Address 2"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1011
+msgctxt "mapped field name"
+msgid "Billing City"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1016
+msgctxt "mapped field name"
+msgid "Billing State"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1021
+msgctxt "mapped field name"
+msgid "Billing Postcode"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1026
+msgctxt "mapped field name"
+msgid "Billing Country"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1031
+msgctxt "mapped field name"
+msgid "Phone"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1036
+msgctxt "mapped field name"
+msgid "Mobile"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1041
+msgctxt "mapped field name"
+msgid "Fax"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1046
+msgctxt "mapped field name"
+msgid "Website"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1051
+msgctxt "mapped field name"
+msgid "Customer Comments"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1056
+msgctxt "mapped field name"
+msgid "Shipping First Name"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1061
+msgctxt "mapped field name"
+msgid "Shipping Last Name"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1066
+msgctxt "mapped field name"
+msgid "Shipping Email"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1071
+msgctxt "mapped field name"
+msgid "Shipping Address 1"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1076
+msgctxt "mapped field name"
+msgid "Shipping Address 2"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1081
+msgctxt "mapped field name"
+msgid "Shipping City"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1086
+msgctxt "mapped field name"
+msgid "Shipping State"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1091
+msgctxt "mapped field name"
+msgid "Shipping Postcode"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1096
+msgctxt "mapped field name"
+msgid "Shipping Country"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1101
+msgctxt "mapped field name"
+msgid "Shipping Phone"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1106
+msgctxt "mapped field name"
+msgid "Shipping Fax"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1111
+msgctxt "mapped field name"
+msgid "Option 1"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1116
+msgctxt "mapped field name"
+msgid "Option 2"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1121
+msgctxt "mapped field name"
+msgid "Option 3"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1226
+msgctxt "mapped fields title"
+msgid "eWAY Field"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1302
+msgctxt "feed list bulk action"
+msgid "Set Mode Live"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1303
+msgctxt "feed list bulk action"
+msgid "Set Mode Test"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1359
+msgctxt "mapped field choice"
+msgid "No initial amount"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1375
+msgctxt "mapped field choice"
+msgid "Form total"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1391
+msgctxt "remember customer"
+msgid "Off; don't remember customer"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1392
+msgctxt "remember customer"
+msgid "Create token customer, but don't remember in WordPress"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1393
+msgctxt "remember customer"
+msgid "Create token customer, and remember in WordPress"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1394
+msgctxt "remember customer"
+msgid "Create token customer only if customer permits, and remember in WordPress"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1431
+msgctxt "recurring times choice"
+msgid "Infinite"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1432
+#: includes/class.GFEwayProAddOn.php:1496
+#: includes/class.GFEwayProAddOn.php:1522
+#: includes/class.GFEwayProAddOn.php:1587
+#: includes/class.GFEwayProAddOn.php:1596
+#: includes/class.GFEwayProAddOn.php:1622
+msgctxt "field choice"
+msgid "Mapped field"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1487
+msgctxt "billing cycle label"
+msgid "Days"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1488
+msgctxt "billing cycle label"
+msgid "Weeks"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1489
+msgctxt "billing cycle label"
+msgid "Months"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1490
+msgctxt "billing cycle label"
+msgid "Years"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1586
+msgctxt "recurring payments start"
+msgid "Immediately"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1588
+msgctxt "recurring payments start"
+msgid "Days"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1589
+msgctxt "recurring payments start"
+msgid "Weeks"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:1590
+msgctxt "recurring payments start"
+msgid "Months"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2660
+msgctxt "recurring period"
+msgid "%s period"
+msgid_plural "%s periods"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class.GFEwayProAddOn.php:2688
+msgctxt "recurring interval"
+msgid "day"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2692
+msgctxt "recurring interval"
+msgid "week"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2696
+msgctxt "recurring interval"
+msgid "month"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2700
+msgctxt "recurring interval"
+msgid "year"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:2709
+msgctxt "recurring interval"
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class.GFEwayProAddOn.php:2713
+msgctxt "recurring interval"
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class.GFEwayProAddOn.php:2717
+msgctxt "recurring interval"
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class.GFEwayProAddOn.php:2721
+msgctxt "recurring interval"
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class.GFEwayProAddOn.php:3126
+msgctxt "notification event"
+msgid "Payment Completed"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:3127
+msgctxt "notification event"
+msgid "Payment Failed"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:3128
+msgctxt "notification event"
+msgid "Payment Pending"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:3129
+msgctxt "notification event"
+msgid "Subscription Created"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:3456
+msgctxt "merge tag label"
+msgid "Transaction ID"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:3457
+msgctxt "merge tag label"
+msgid "AuthCode"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:3458
+msgctxt "merge tag label"
+msgid "Beagle Score"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:3459
+msgctxt "merge tag label"
+msgid "Payment Amount"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:3460
+msgctxt "merge tag label"
+msgid "Payment Status"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:3461
+msgctxt "merge tag label"
+msgid "Customer Token"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:3771
+msgctxt "entry meta label"
+msgid "Transaction ID"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:3780
+msgctxt "entry meta label"
+msgid "Payment Gateway"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:3789
+msgctxt "entry meta label"
+msgid "AuthCode"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:3798
+msgctxt "entry meta label"
+msgid "Beagle Score"
+msgstr ""
+
+#: includes/class.GFEwayProAddOn.php:3807
+msgctxt "entry meta label"
+msgid "Customer Token"
+msgstr ""
+
+#: includes/class.GFEwayProAdmin.php:84
+msgctxt "plugin details links"
+msgid "Instructions"
+msgstr ""
+
+#: includes/class.GFEwayProAdmin.php:85
+msgctxt "plugin details links"
+msgid "Get Help"
+msgstr ""
+
+#: includes/class.GFEwayProAdmin.php:86
+msgctxt "plugin details links"
+msgid "Translate"
+msgstr ""
+
+#: includes/class.GFEwayProClientSideEncryption.php:215
+#. translators: credit card type reported when card type is unknown due to
+#. client-side encryption
+msgctxt "credit card type"
+msgid "Card"
+msgstr ""
+
+#: includes/class.GFEwayProFieldCustomerTokens.php:48
+msgctxt "conditional logic operator label"
+msgid "New card"
+msgstr ""
+
+#: includes/class.GFEwayProFieldCustomerTokens.php:248
+msgctxt "security code validation message"
+msgid "Only digits 0-9 are allowed"
+msgstr ""
+
+#: includes/class.GFEwayProFieldCustomerTokens.php:315
+#: includes/class.GFEwayProFieldCustomerTokens.php:376
+msgctxt "card token entry"
+msgid "remember card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:82
+msgctxt "eWAY coded response"
+msgid "%s: Transaction Approved"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:83
+msgctxt "eWAY coded response"
+msgid "%s: Honor With Identification"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:84
+msgctxt "eWAY coded response"
+msgid "%s: Approved For Partial Amount"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:85
+msgctxt "eWAY coded response"
+msgid "%s: Approved, VIP"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:86
+msgctxt "eWAY coded response"
+msgid "%s: Approved, Update Track 3"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:88
+msgctxt "eWAY coded response"
+msgid "%s: Refer to Issuer"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:89
+msgctxt "eWAY coded response"
+msgid "%s: Refer to Issuer, special"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:90
+msgctxt "eWAY coded response"
+msgid "%s: No Merchant"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:91
+msgctxt "eWAY coded response"
+msgid "%s: Pick Up Card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:92
+msgctxt "eWAY coded response"
+msgid "%s: Do Not Honor"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:93
+msgctxt "eWAY coded response"
+msgid "%s: Error"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:94
+msgctxt "eWAY coded response"
+msgid "%s: Pick Up Card, Special"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:95
+msgctxt "eWAY coded response"
+msgid "%s: Request In Progress"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:96
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Transaction"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:97
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Amount"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:98
+#: includes/class.GFEwayProResponse.php:274
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Card Number"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:99
+msgctxt "eWAY coded response"
+msgid "%s: No Issuer"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:100
+msgctxt "eWAY coded response"
+msgid "%s: Re-enter Last Transaction"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:101
+msgctxt "eWAY coded response"
+msgid "%s: No Action Taken"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:102
+msgctxt "eWAY coded response"
+msgid "%s: Suspected Malfunction"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:103
+msgctxt "eWAY coded response"
+msgid "%s: Unacceptable Transaction Fee"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:104
+msgctxt "eWAY coded response"
+msgid "%s: Unable to Locate Record On File"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:105
+msgctxt "eWAY coded response"
+msgid "%s: Format Error"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:106
+msgctxt "eWAY coded response"
+msgid "%s: Bank Not Supported By Switch"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:107
+msgctxt "eWAY coded response"
+msgid "%s: Expired Card, Capture"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:108
+msgctxt "eWAY coded response"
+msgid "%s: Suspected Fraud, Retain Card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:109
+msgctxt "eWAY coded response"
+msgid "%s: Card Acceptor, Contact Acquirer, Retain Card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:110
+msgctxt "eWAY coded response"
+msgid "%s: Restricted Card, Retain Card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:111
+msgctxt "eWAY coded response"
+msgid "%s: Contact Acquirer Security Department, Retain Card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:112
+msgctxt "eWAY coded response"
+msgid "%s: PIN Tries Exceeded, Capture"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:113
+msgctxt "eWAY coded response"
+msgid "%s: No Credit Account"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:114
+msgctxt "eWAY coded response"
+msgid "%s: Function Not Supported"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:115
+msgctxt "eWAY coded response"
+msgid "%s: Lost Card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:116
+msgctxt "eWAY coded response"
+msgid "%s: No Universal Account"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:117
+msgctxt "eWAY coded response"
+msgid "%s: Stolen Card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:118
+msgctxt "eWAY coded response"
+msgid "%s: No Investment Account"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:119
+msgctxt "eWAY coded response"
+msgid "%s: Visa Checkout Transaction Error"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:120
+msgctxt "eWAY coded response"
+msgid "%s: Insufficient Funds"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:121
+msgctxt "eWAY coded response"
+msgid "%s: No Check Account"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:122
+msgctxt "eWAY coded response"
+msgid "%s: No Savings Account"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:123
+msgctxt "eWAY coded response"
+msgid "%s: Expired Card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:124
+msgctxt "eWAY coded response"
+msgid "%s: Incorrect PIN"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:125
+msgctxt "eWAY coded response"
+msgid "%s: No Card Record"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:126
+msgctxt "eWAY coded response"
+msgid "%s: Function Not Permitted to Cardholder"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:127
+msgctxt "eWAY coded response"
+msgid "%s: Function Not Permitted to Terminal"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:128
+msgctxt "eWAY coded response"
+msgid "%s: Suspected Fraud"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:129
+msgctxt "eWAY coded response"
+msgid "%s: Acceptor Contact Acquirer"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:130
+msgctxt "eWAY coded response"
+msgid "%s: Exceeds Withdrawal Limit"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:131
+msgctxt "eWAY coded response"
+msgid "%s: Restricted Card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:132
+msgctxt "eWAY coded response"
+msgid "%s: Security Violation"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:133
+msgctxt "eWAY coded response"
+msgid "%s: Original Amount Incorrect"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:134
+msgctxt "eWAY coded response"
+msgid "%s: Acceptor Contact Acquirer, Security"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:135
+msgctxt "eWAY coded response"
+msgid "%s: Capture Card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:136
+msgctxt "eWAY coded response"
+msgid "%s: PIN Tries Exceeded"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:137
+msgctxt "eWAY coded response"
+msgid "%s: CVV Validation Error"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:138
+msgctxt "eWAY coded response"
+msgid "%s: Cut off In Progress"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:139
+msgctxt "eWAY coded response"
+msgid "%s: Card Issuer Unavailable"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:140
+msgctxt "eWAY coded response"
+msgid "%s: Unable To Route Transaction"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:141
+msgctxt "eWAY coded response"
+msgid "%s: Cannot Complete, Violation Of The Law"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:142
+msgctxt "eWAY coded response"
+msgid "%s: Duplicate Transaction"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:143
+msgctxt "eWAY coded response"
+msgid "%s: Amex Declined"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:144
+#: includes/class.GFEwayProResponse.php:190
+msgctxt "eWAY coded response"
+msgid "%s: System Error"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:145
+msgctxt "eWAY coded response"
+msgid "%s: MasterPass Error"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:146
+msgctxt "eWAY coded response"
+msgid "%s: PayPal Create Transaction Error"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:147
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Transaction for Auth/Void"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:149
+msgctxt "eWAY coded response"
+msgid "%s: Undefined Fraud Error"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:150
+msgctxt "eWAY coded response"
+msgid "%s: Challenged Fraud"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:151
+msgctxt "eWAY coded response"
+msgid "%s: Country Match Fraud"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:152
+msgctxt "eWAY coded response"
+msgid "%s: High Risk Country Fraud"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:153
+msgctxt "eWAY coded response"
+msgid "%s: Anonymous Proxy Fraud"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:154
+msgctxt "eWAY coded response"
+msgid "%s: Transparent Proxy Fraud"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:155
+msgctxt "eWAY coded response"
+msgid "%s: Free Email Fraud"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:156
+msgctxt "eWAY coded response"
+msgid "%s: International Transaction Fraud"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:157
+msgctxt "eWAY coded response"
+msgid "%s: Risk Score Fraud"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:158
+msgctxt "eWAY coded response"
+msgid "%s: Denied Fraud"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:159
+msgctxt "eWAY coded response"
+msgid "%s: Denied by PayPal Fraud Rules"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:160
+msgctxt "eWAY coded response"
+msgid "%s: Custom Fraud Rule"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:161
+msgctxt "eWAY coded response"
+msgid "%s: High Risk Billing Country"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:162
+msgctxt "eWAY coded response"
+msgid "%s: High Risk Credit Card Country"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:163
+msgctxt "eWAY coded response"
+msgid "%s: High Risk Customer IP Address"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:164
+msgctxt "eWAY coded response"
+msgid "%s: High Risk Email Address"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:165
+msgctxt "eWAY coded response"
+msgid "%s: High Risk Shipping Country"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:166
+msgctxt "eWAY coded response"
+msgid "%s: Multiple card numbers for single email address"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:167
+msgctxt "eWAY coded response"
+msgid "%s: Multiple card numbers for single location"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:168
+msgctxt "eWAY coded response"
+msgid "%s: Multiple email addresses for single card number"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:169
+msgctxt "eWAY coded response"
+msgid "%s: Multiple email addresses for single location"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:170
+msgctxt "eWAY coded response"
+msgid "%s: Multiple locations for single card number"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:171
+msgctxt "eWAY coded response"
+msgid "%s: Multiple locations for single email address"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:172
+msgctxt "eWAY coded response"
+msgid "%s: Suspicious Customer First Name"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:173
+msgctxt "eWAY coded response"
+msgid "%s: Suspicious Customer Last Name"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:174
+msgctxt "eWAY coded response"
+msgid "%s: Transaction Declined"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:175
+msgctxt "eWAY coded response"
+msgid "%s: Multiple transactions for same address with known credit card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:176
+msgctxt "eWAY coded response"
+msgid "%s: Multiple transactions for same address with new credit card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:177
+msgctxt "eWAY coded response"
+msgid "%s: Multiple transactions for same email with new credit card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:178
+msgctxt "eWAY coded response"
+msgid "%s: Multiple transactions for same email with known credit card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:179
+msgctxt "eWAY coded response"
+msgid "%s: Multiple transactions for new credit card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:180
+msgctxt "eWAY coded response"
+msgid "%s: Multiple transactions for known credit card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:181
+msgctxt "eWAY coded response"
+msgid "%s: Multiple transactions for same email address"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:182
+msgctxt "eWAY coded response"
+msgid "%s: Multiple transactions for same credit card"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:183
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Last Name"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:184
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Billing Street"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:185
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Shipping Street"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:186
+msgctxt "eWAY coded response"
+msgid "%s: Suspicious Customer Email Address"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:187
+msgctxt "eWAY coded response"
+msgid "%s: High Risk Email Address and amount"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:188
+msgctxt "eWAY coded response"
+msgid "%s: Card issuing country differs from IP address country"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:191
+msgctxt "eWAY coded response"
+msgid "%s: PayPal Connection Error"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:192
+msgctxt "eWAY coded response"
+msgid "%s: PayPal Settings Error"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:193
+msgctxt "eWAY coded response"
+msgid "%s: Started 3dSecure"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:194
+msgctxt "eWAY coded response"
+msgid "%s: Routed 3dSecure"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:195
+msgctxt "eWAY coded response"
+msgid "%s: Completed 3dSecure"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:196
+msgctxt "eWAY coded response"
+msgid "%s: PayPal Transaction Created"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:197
+msgctxt "eWAY coded response"
+msgid "%s: Incomplete (Access Code in progress/incomplete)"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:198
+msgctxt "eWAY coded response"
+msgid "%s: Unknown error returned by gateway"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:200
+msgctxt "eWAY coded response"
+msgid "%s: Validation error"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:201
+msgctxt "eWAY coded response"
+msgid "%s: Invalid CustomerIP"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:202
+msgctxt "eWAY coded response"
+msgid "%s: Invalid DeviceID"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:203
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Request PartnerID"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:204
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Request Method"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:205
+msgctxt "eWAY coded response"
+msgid ""
+"%s: Invalid TransactionType, account not certified for eCome only MOTO or "
+"Recurring available"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:206
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Payment TotalAmount"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:207
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Payment InvoiceDescription"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:208
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Payment InvoiceNumber"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:209
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Payment InvoiceReference"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:210
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Payment CurrencyCode"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:211
+msgctxt "eWAY coded response"
+msgid "%s: Payment Required"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:212
+msgctxt "eWAY coded response"
+msgid "%s: Payment CurrencyCode Required"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:213
+msgctxt "eWAY coded response"
+msgid "%s: Unknown Payment CurrencyCode"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:214
+msgctxt "eWAY coded response"
+msgid "%s: Cardholder Name Required"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:215
+msgctxt "eWAY coded response"
+msgid "%s: Card Number Required"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:216
+msgctxt "eWAY coded response"
+msgid "%s: Card Security Code (CVN) Required"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:217
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Expiry Date"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:218
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Issue Number"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:219
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Valid From Date"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:220
+#: includes/class.GFEwayProResponse.php:235
+msgctxt "eWAY coded response"
+msgid "%s: Invalid TokenCustomerID"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:221
+msgctxt "eWAY coded response"
+msgid "%s: Customer Required"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:222
+msgctxt "eWAY coded response"
+msgid "%s: Customer FirstName Required"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:223
+msgctxt "eWAY coded response"
+msgid "%s: Customer LastName Required"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:224
+msgctxt "eWAY coded response"
+msgid "%s: Customer CountryCode Required"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:225
+msgctxt "eWAY coded response"
+msgid "%s: Customer Title Required"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:226
+msgctxt "eWAY coded response"
+msgid "%s: TokenCustomerID Required"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:227
+msgctxt "eWAY coded response"
+msgid "%s: RedirectURL Required"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:228
+msgctxt "eWAY coded response"
+msgid "%s: CheckoutURL Required when CheckoutPayment specified"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:229
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Checkout URL"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:230
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer FirstName"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:231
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer LastName"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:232
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer CountryCode"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:233
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Title"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:234
+msgctxt "eWAY coded response"
+msgid "%s: Invalid RedirectURL"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:236
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Reference"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:237
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer CompanyName"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:238
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer JobDescription"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:239
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Street1"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:240
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Street2"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:241
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer City"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:242
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer State"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:243
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer PostalCode"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:244
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Email"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:245
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Phone"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:246
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Mobile"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:247
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Comments"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:248
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer Fax"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:249
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Customer URL"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:250
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress FirstName"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:251
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress LastName"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:252
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress Street1"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:253
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress Street2"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:254
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress City"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:255
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress State"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:256
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress PostalCode"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:257
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress Email"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:258
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress Phone"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:259
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress Country"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:260
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress ShippingMethod"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:261
+msgctxt "eWAY coded response"
+msgid "%s: Invalid ShippingAddress Fax"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:262
+msgctxt "eWAY coded response"
+msgid "%s: Unknown Customer CountryCode"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:263
+msgctxt "eWAY coded response"
+msgid "%s: Unknown ShippingAddress CountryCode"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:264
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Cardholder Name"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:265
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Card Expiry Month"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:266
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Card Expiry Year"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:267
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Card Start Month"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:268
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Card Start Year"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:269
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Card Issue Number"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:270
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Card Security Code (CVN)"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:271
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Access Code"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:272
+msgctxt "eWAY coded response"
+msgid "%s: Invalid CustomerHostAddress"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:273
+msgctxt "eWAY coded response"
+msgid "%s: Invalid UserAgent"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:275
+msgctxt "eWAY coded response"
+msgid "%s: Unauthorized API Access, Account Not PCI Certified"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:276
+msgctxt "eWAY coded response"
+msgid "%s: Redundant card details other than expiry year and month"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:277
+msgctxt "eWAY coded response"
+msgid "%s: Invalid transaction for refund"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:278
+msgctxt "eWAY coded response"
+msgid "%s: Gateway validation error"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:279
+msgctxt "eWAY coded response"
+msgid "%s: Invalid DirectRefundRequest, Transaction ID"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:280
+msgctxt "eWAY coded response"
+msgid "%s: Invalid card data on original TransactionID"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:281
+msgctxt "eWAY coded response"
+msgid "%s: Invalid CreateAccessCodeSharedRequest, FooterText"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:282
+msgctxt "eWAY coded response"
+msgid "%s: Invalid CreateAccessCodeSharedRequest, HeaderText"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:283
+msgctxt "eWAY coded response"
+msgid "%s: Invalid CreateAccessCodeSharedRequest, Language"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:284
+msgctxt "eWAY coded response"
+msgid "%s: Invalid CreateAccessCodeSharedRequest, LogoUrl"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:285
+msgctxt "eWAY coded response"
+msgid "%s: Invalid TransactionSearch, Filter Match Type"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:286
+msgctxt "eWAY coded response"
+msgid "%s: Invalid TransactionSearch, Non numeric Transaction ID"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:287
+msgctxt "eWAY coded response"
+msgid "%s: Invalid TransactionSearch,no TransactionID or AccessCode specified"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:288
+msgctxt "eWAY coded response"
+msgid ""
+"%s: Invalid Line Items. The line items have been provided, however the "
+"totals do not match the TotalAmount field"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:289
+msgctxt "eWAY coded response"
+msgid "%s: Selected Payment Type not enabled"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:290
+msgctxt "eWAY coded response"
+msgid "%s: Invalid encrypted card number, decryption failed"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:291
+msgctxt "eWAY coded response"
+msgid "%s: Invalid encrypted cvn, decryption failed"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:292
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Method for Payment Type"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:293
+msgctxt "eWAY coded response"
+msgid "%s: Transaction has not been authorized for Capture/Cancellation"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:294
+msgctxt "eWAY coded response"
+msgid "%s: Generic customer information error"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:295
+msgctxt "eWAY coded response"
+msgid "%s: Generic shipping information error"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:296
+msgctxt "eWAY coded response"
+msgid ""
+"%s: Transaction has already been completed or voided, operation not "
+"permitted"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:297
+msgctxt "eWAY coded response"
+msgid "%s: Checkout not available for Payment Type"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:298
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Auth Transaction ID for Capture/Void"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:299
+msgctxt "eWAY coded response"
+msgid "%s: PayPal Error Processing Refund"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:300
+msgctxt "eWAY coded response"
+msgid "%s: Merchant account is suspended"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:301
+msgctxt "eWAY coded response"
+msgid "%s: Invalid PayPal account details or API signature"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:302
+msgctxt "eWAY coded response"
+msgid "%s: Authorize not available for Bank/Branch"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:303
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Refund Amount"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:304
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Public Key"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:305
+msgctxt "eWAY coded response"
+msgid "%s: Client Side Encryption Key Missing or Invalid"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:306
+msgctxt "eWAY coded response"
+msgid "%s: Unable to Create One Time Code for Secure Field"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:307
+msgctxt "eWAY coded response"
+msgid "%s: Secure Field has Expired"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:308
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Secure Field One Time Code"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:309
+msgctxt "eWAY coded response"
+msgid "%s: Refund amount greater than original transaction"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:310
+msgctxt "eWAY coded response"
+msgid "%s: Original transaction already refunded for total amount"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:311
+msgctxt "eWAY coded response"
+msgid "%s: Card type not support by merchant"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:312
+msgctxt "eWAY coded response"
+msgid "%s: Encryption Method Not Supported"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:313
+msgctxt "eWAY coded response"
+msgid "%s: Encryption failed, missing or invalid key"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:314
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Visa Checkout data or decryption failed"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:315
+msgctxt "eWAY coded response"
+msgid "%s: Invalid TransactionSearch, Invoice Number is not unique"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:316
+msgctxt "eWAY coded response"
+msgid "%s: Invalid TransactionSearch, Invoice Number not found"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:317
+msgctxt "eWAY coded response"
+msgid "%s: Secure Field Invalid Type"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:318
+msgctxt "eWAY coded response"
+msgid "%s: Secure Field Invalid Div"
+msgstr ""
+
+#: includes/class.GFEwayProResponse.php:319
+msgctxt "eWAY coded response"
+msgid "%s: Invalid Style string for Secure Field"
+msgstr ""
+
+#: views/admin-editorjs-default-values.php:9
+msgctxt "default field label"
+msgid "Remembered Cards"
+msgstr ""
+
+#: views/admin-editorjs-default-values.php:12
+msgctxt "customer token field label"
+msgid "Remembered Card"
+msgstr ""
+
+#: views/admin-editorjs-default-values.php:13
+#: views/field-customer-tokens.php:60 views/field-customer-tokens.php:66
+msgctxt "customer token field label"
+msgid "Security Code"
+msgstr ""
+
+#: views/admin-editorjs-default-values.php:14
+#: views/field-customer-tokens.php:46
+msgctxt "customer token field label"
+msgid "Remember card securely with eWAY"
+msgstr ""
+
+#: views/field-customer-tokens.php:34
+#. translators: list of previous customer cards, this option lets customer
+#. enter a new card
+msgctxt "customer token field label"
+msgid "Use a new card"
+msgstr ""
+
+#: views/field-customer-tokens.php:51 views/field-customer-tokens.php:90
+msgctxt "customer token field label"
+msgid "Your card will be remembered securely with eWAY."
+msgstr ""
+
+#: views/field-customer-tokens.php:85
+msgctxt "customer token field label"
+msgid "remember card securely with eWAY"
+msgstr ""
+
+#: views/admin-entry-payment-details.php:9
+msgctxt "entry details"
+msgid "AuthCode:"
+msgstr ""
+
+#: views/admin-entry-payment-details.php:16
+msgctxt "entry details"
+msgid "Beagle Score:"
+msgstr ""
+
+#: views/admin-entry-payment-details.php:23
+msgctxt "entry details"
+msgid "Customer Token:"
+msgstr ""
+
+#: views/admin-settings-edd-license.php:11
+#. translators: button for deactivating software license
+msgctxt "license activation"
+msgid "Deactivate"
+msgstr ""
+
+#: views/admin-settings-edd-license.php:16
+#. translators: button for activating software license
+msgctxt "license activation"
+msgid "Activate"
+msgstr ""
